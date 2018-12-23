@@ -39,7 +39,7 @@ public class TokenPass {
     }
 
     public void nextPlayer(){
-        currentPlayer++;
+        currentPlayer = (currentPlayer +1)%board.length;
     }
 
 
